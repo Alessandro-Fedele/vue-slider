@@ -55,6 +55,12 @@ new Vue({
             }
             this.indexImg = newIndex;
         }
+    },
+    mounted()
+    {
+        setInterval(() =>
+        {
+            this.clickDown();
+        }, 3000);
     }
 });
-
